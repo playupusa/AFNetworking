@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC2B7C014F22364003654EC /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2B7BF14F22364003654EC /* AFJSONUtilities.m */; };
+		1C8A957B1561B52700FA4C85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8A957A1561B52700FA4C85 /* UIKit.framework */; };
+		95A9BD021499F9E500C0D0B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A9BD011499F9E500C0D0B1 /* Foundation.framework */; };
+		95A9BD081499F9E500C0D0B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95A9BD061499F9E500C0D0B1 /* InfoPlist.strings */; };
+		95A9BD2A1499FC1200C0D0B1 /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A9BD141499FC1200C0D0B1 /* AFHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A9BD2B1499FC1200C0D0B1 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BD151499FC1200C0D0B1 /* AFHTTPClient.m */; };
+		95A9BD2C1499FC1200C0D0B1 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A9BD161499FC1200C0D0B1 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A9BD2D1499FC1200C0D0B1 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BD171499FC1200C0D0B1 /* AFHTTPRequestOperation.m */; };
+		95A9BD301499FC1200C0D0B1 /* AFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A9BD1A1499FC1200C0D0B1 /* AFImageRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A9BD311499FC1200C0D0B1 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BD1B1499FC1200C0D0B1 /* AFImageRequestOperation.m */; };
+		95A9BD321499FC1200C0D0B1 /* AFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A9BD1C1499FC1200C0D0B1 /* AFJSONRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A9BD331499FC1200C0D0B1 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BD1D1499FC1200C0D0B1 /* AFJSONRequestOperation.m */; };
+		95A9BD341499FC1200C0D0B1 /* AFJSONUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A9BD1E1499FC1200C0D0B1 /* AFJSONUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		95A9BD351499FC1200C0D0B1 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A9BD1F1499FC1200C0D0B1 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A9BD361499FC1200C0D0B1 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BD201499FC1200C0D0B1 /* AFNetworkActivityIndicatorManager.m */; };
+		95A9BD371499FC1200C0D0B1 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A9BD211499FC1200C0D0B1 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A9BD381499FC1200C0D0B1 /* AFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A9BD221499FC1200C0D0B1 /* AFPropertyListRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A9BD391499FC1200C0D0B1 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BD231499FC1200C0D0B1 /* AFPropertyListRequestOperation.m */; };
+		95A9BD3A1499FC1200C0D0B1 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A9BD241499FC1200C0D0B1 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A9BD3B1499FC1200C0D0B1 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BD251499FC1200C0D0B1 /* AFURLConnectionOperation.m */; };
+		95A9BD3C1499FC1200C0D0B1 /* AFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A9BD261499FC1200C0D0B1 /* AFXMLRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A9BD3D1499FC1200C0D0B1 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BD271499FC1200C0D0B1 /* AFXMLRequestOperation.m */; };
+		95A9BD3E1499FC1200C0D0B1 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A9BD281499FC1200C0D0B1 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A9BD3F1499FC1200C0D0B1 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BD291499FC1200C0D0B1 /* UIImageView+AFNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AC2B7BF14F22364003654EC /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONUtilities.m; sourceTree = "<group>"; };
+		1C8A957A1561B52700FA4C85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95A9BCFE1499F9E500C0D0B1 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A9BD011499F9E500C0D0B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95A9BD051499F9E500C0D0B1 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		95A9BD071499F9E500C0D0B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95A9BD091499F9E500C0D0B1 /* AFNetworking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-Prefix.pch"; sourceTree = "<group>"; };
+		95A9BD141499FC1200C0D0B1 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		95A9BD151499FC1200C0D0B1 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		95A9BD161499FC1200C0D0B1 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		95A9BD171499FC1200C0D0B1 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		95A9BD1A1499FC1200C0D0B1 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		95A9BD1B1499FC1200C0D0B1 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		95A9BD1C1499FC1200C0D0B1 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		95A9BD1D1499FC1200C0D0B1 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		95A9BD1E1499FC1200C0D0B1 /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
+		95A9BD1F1499FC1200C0D0B1 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		95A9BD201499FC1200C0D0B1 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		95A9BD211499FC1200C0D0B1 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		95A9BD221499FC1200C0D0B1 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		95A9BD231499FC1200C0D0B1 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		95A9BD241499FC1200C0D0B1 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		95A9BD251499FC1200C0D0B1 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		95A9BD261499FC1200C0D0B1 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		95A9BD271499FC1200C0D0B1 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		95A9BD281499FC1200C0D0B1 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		95A9BD291499FC1200C0D0B1 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95A9BCF91499F9E500C0D0B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8A957B1561B52700FA4C85 /* UIKit.framework in Frameworks */,
+				95A9BD021499F9E500C0D0B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95A9BCF01499F9E500C0D0B1 = {
+			isa = PBXGroup;
+			children = (
+				95A9BD031499F9E500C0D0B1 /* AFNetworking */,
+				95A9BD001499F9E500C0D0B1 /* Frameworks */,
+				95A9BCFF1499F9E500C0D0B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95A9BCFF1499F9E500C0D0B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95A9BCFE1499F9E500C0D0B1 /* AFNetworking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95A9BD001499F9E500C0D0B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C8A957A1561B52700FA4C85 /* UIKit.framework */,
+				95A9BD011499F9E500C0D0B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95A9BD031499F9E500C0D0B1 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				95A9BD211499FC1200C0D0B1 /* AFNetworking.h */,
+				95A9BD1E1499FC1200C0D0B1 /* AFJSONUtilities.h */,
+				0AC2B7BF14F22364003654EC /* AFJSONUtilities.m */,
+				95A9BD411499FCAC00C0D0B1 /* AFHTTPClient */,
+				95A9BD401499FC6200C0D0B1 /* NSOperations */,
+				95A9BD421499FD0300C0D0B1 /* AFNetworkActivityIndicatorManager */,
+				95A9BD441499FD6200C0D0B1 /* Categories */,
+				95A9BD041499F9E500C0D0B1 /* Supporting Files */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		95A9BD041499F9E500C0D0B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95A9BD051499F9E500C0D0B1 /* AFNetworking-Info.plist */,
+				95A9BD061499F9E500C0D0B1 /* InfoPlist.strings */,
+				95A9BD091499F9E500C0D0B1 /* AFNetworking-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95A9BD401499FC6200C0D0B1 /* NSOperations */ = {
+			isa = PBXGroup;
+			children = (
+				95A9BD241499FC1200C0D0B1 /* AFURLConnectionOperation.h */,
+				95A9BD251499FC1200C0D0B1 /* AFURLConnectionOperation.m */,
+				95A9BD161499FC1200C0D0B1 /* AFHTTPRequestOperation.h */,
+				95A9BD171499FC1200C0D0B1 /* AFHTTPRequestOperation.m */,
+				95A9BD1C1499FC1200C0D0B1 /* AFJSONRequestOperation.h */,
+				95A9BD1D1499FC1200C0D0B1 /* AFJSONRequestOperation.m */,
+				95A9BD261499FC1200C0D0B1 /* AFXMLRequestOperation.h */,
+				95A9BD271499FC1200C0D0B1 /* AFXMLRequestOperation.m */,
+				95A9BD221499FC1200C0D0B1 /* AFPropertyListRequestOperation.h */,
+				95A9BD231499FC1200C0D0B1 /* AFPropertyListRequestOperation.m */,
+				95A9BD1A1499FC1200C0D0B1 /* AFImageRequestOperation.h */,
+				95A9BD1B1499FC1200C0D0B1 /* AFImageRequestOperation.m */,
+			);
+			name = NSOperations;
+			sourceTree = "<group>";
+		};
+		95A9BD411499FCAC00C0D0B1 /* AFHTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				95A9BD141499FC1200C0D0B1 /* AFHTTPClient.h */,
+				95A9BD151499FC1200C0D0B1 /* AFHTTPClient.m */,
+			);
+			name = AFHTTPClient;
+			sourceTree = "<group>";
+		};
+		95A9BD421499FD0300C0D0B1 /* AFNetworkActivityIndicatorManager */ = {
+			isa = PBXGroup;
+			children = (
+				95A9BD1F1499FC1200C0D0B1 /* AFNetworkActivityIndicatorManager.h */,
+				95A9BD201499FC1200C0D0B1 /* AFNetworkActivityIndicatorManager.m */,
+			);
+			name = AFNetworkActivityIndicatorManager;
+			sourceTree = "<group>";
+		};
+		95A9BD441499FD6200C0D0B1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				95A9BD281499FC1200C0D0B1 /* UIImageView+AFNetworking.h */,
+				95A9BD291499FC1200C0D0B1 /* UIImageView+AFNetworking.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		95A9BCFA1499F9E500C0D0B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A9BD2A1499FC1200C0D0B1 /* AFHTTPClient.h in Headers */,
+				95A9BD2C1499FC1200C0D0B1 /* AFHTTPRequestOperation.h in Headers */,
+				95A9BD301499FC1200C0D0B1 /* AFImageRequestOperation.h in Headers */,
+				95A9BD321499FC1200C0D0B1 /* AFJSONRequestOperation.h in Headers */,
+				95A9BD341499FC1200C0D0B1 /* AFJSONUtilities.h in Headers */,
+				95A9BD351499FC1200C0D0B1 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				95A9BD371499FC1200C0D0B1 /* AFNetworking.h in Headers */,
+				95A9BD381499FC1200C0D0B1 /* AFPropertyListRequestOperation.h in Headers */,
+				95A9BD3A1499FC1200C0D0B1 /* AFURLConnectionOperation.h in Headers */,
+				95A9BD3C1499FC1200C0D0B1 /* AFXMLRequestOperation.h in Headers */,
+				95A9BD3E1499FC1200C0D0B1 /* UIImageView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		95A9BCFD1499F9E500C0D0B1 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A9BD0C1499F9E500C0D0B1 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				95A9BCF71499F9E500C0D0B1 /* ShellScript */,
+				95A9BCF81499F9E500C0D0B1 /* Sources */,
+				95A9BCF91499F9E500C0D0B1 /* Frameworks */,
+				95A9BCFA1499F9E500C0D0B1 /* Headers */,
+				95A9BCFB1499F9E500C0D0B1 /* Resources */,
+				95A9BCFC1499F9E500C0D0B1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 95A9BCFE1499F9E500C0D0B1 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95A9BCF21499F9E500C0D0B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Digitalscape;
+			};
+			buildConfigurationList = 95A9BCF51499F9E500C0D0B1 /* Build configuration list for PBXProject "AFNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95A9BCF01499F9E500C0D0B1;
+			productRefGroup = 95A9BCFF1499F9E500C0D0B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95A9BCFD1499F9E500C0D0B1 /* AFNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95A9BCFB1499F9E500C0D0B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A9BD081499F9E500C0D0B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95A9BCF71499F9E500C0D0B1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n";
+		};
+		95A9BCFC1499F9E500C0D0B1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95A9BCF81499F9E500C0D0B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A9BD2B1499FC1200C0D0B1 /* AFHTTPClient.m in Sources */,
+				95A9BD2D1499FC1200C0D0B1 /* AFHTTPRequestOperation.m in Sources */,
+				95A9BD311499FC1200C0D0B1 /* AFImageRequestOperation.m in Sources */,
+				95A9BD331499FC1200C0D0B1 /* AFJSONRequestOperation.m in Sources */,
+				95A9BD361499FC1200C0D0B1 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				95A9BD391499FC1200C0D0B1 /* AFPropertyListRequestOperation.m in Sources */,
+				95A9BD3B1499FC1200C0D0B1 /* AFURLConnectionOperation.m in Sources */,
+				95A9BD3D1499FC1200C0D0B1 /* AFXMLRequestOperation.m in Sources */,
+				95A9BD3F1499FC1200C0D0B1 /* UIImageView+AFNetworking.m in Sources */,
+				0AC2B7C014F22364003654EC /* AFJSONUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95A9BD061499F9E500C0D0B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A9BD071499F9E500C0D0B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95A9BD0A1499F9E500C0D0B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95A9BD0B1499F9E500C0D0B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				STRIP_STYLE = debugging;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95A9BD0D1499F9E500C0D0B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworking/AFNetworking-Prefix.pch";
+				INFOPLIST_FILE = "AFNetworking/AFNetworking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		95A9BD0E1499F9E500C0D0B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworking/AFNetworking-Prefix.pch";
+				INFOPLIST_FILE = "AFNetworking/AFNetworking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95A9BCF51499F9E500C0D0B1 /* Build configuration list for PBXProject "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A9BD0A1499F9E500C0D0B1 /* Debug */,
+				95A9BD0B1499F9E500C0D0B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A9BD0C1499F9E500C0D0B1 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A9BD0D1499F9E500C0D0B1 /* Debug */,
+				95A9BD0E1499F9E500C0D0B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95A9BCF21499F9E500C0D0B1 /* Project object */;
+}
